@@ -11,6 +11,18 @@ Summary: Calculate the distance between 2 points on Earth
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/haversine-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/haversine-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/haversine-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/haversine-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/haversine-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/haversine-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/haversine/badges/version.svg)](https://anaconda.org/conda-forge/haversine)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/haversine/badges/downloads.svg)](https://anaconda.org/conda-forge/haversine)
+
 Installing haversine
 ====================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `haversine` available on your plat
 ```
 conda search haversine --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/haversine-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/haversine-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/haversine-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/haversine-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/haversine-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/haversine-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/haversine/badges/version.svg)](https://anaconda.org/conda-forge/haversine)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/haversine/badges/downloads.svg)](https://anaconda.org/conda-forge/haversine)
 
 
 Updating haversine-feedstock
