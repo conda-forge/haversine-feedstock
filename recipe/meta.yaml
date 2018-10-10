@@ -1,4 +1,4 @@
-{% set version = "0.4.5" %}
+{% set version = "0.5.0" %}
 
 package:
   name: haversine
@@ -6,10 +6,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/h/haversine/haversine-{{ version }}.tar.gz
-  sha256: 56a12298851a455fb80a8d7e8c7c5548b623d5d1bffc9eba16e7855d9eec5c3c
+  sha256: 29fbceec1fcf295040f495f685e52a23a9101515045bfa49c26e379c46030858
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: python -m pip install --no-deps --ignore-installed .
 
