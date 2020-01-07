@@ -11,14 +11,14 @@ source:
 build:
   number: 0
   noarch: python
-  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
+  script: "{{ PYTHON }} -m pip install . -vv"
 
 requirements:
   host:
-    - python
+    - python >=3.5
     - pip
   run:
-    - python
+    - python >=3.5
 
 test:
   imports:
@@ -27,6 +27,7 @@ test:
 about:
   home: https://github.com/mapado/haversine
   license: MIT
+  license_file: LICENSE
   summary: Calculate the distance between 2 points on Earth
 
 extra:
