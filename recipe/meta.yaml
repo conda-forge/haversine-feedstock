@@ -19,10 +19,15 @@ requirements:
     - pip
   run:
     - python >=3.5
+    # - enum34  # [py<34]
 
 test:
   imports:
     - haversine
+  commands:
+    - pip check
+  requires:
+    - pip
 
 about:
   home: https://github.com/mapado/haversine
