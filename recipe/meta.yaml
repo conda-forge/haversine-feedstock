@@ -1,4 +1,4 @@
-{% set version = "2.2.0" %}
+{% set version = "2.3.0" %}
 
 package:
   name: haversine
@@ -6,12 +6,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/h/haversine/haversine-{{ version }}.tar.gz
-  sha256: b710aaf32c442a6d04aa89678be55e3f6c11f9752fc01c216e89b13120b36269
+  sha256: 72c76855ac25e6ad054c7ed380e95c1a96803185f005dd11f40ccaa9620b551f
 
 build:
   number: 0
   noarch: python
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
