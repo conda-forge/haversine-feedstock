@@ -7,7 +7,7 @@ Home: https://github.com/mapado/haversine
 
 Package license: MIT
 
-Summary: Calculate the distance between 2 points on Earth
+Summary: Calculate the distance between 2 points on Earth.
 
 Current build status
 ====================
